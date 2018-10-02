@@ -4,4 +4,5 @@ def oxford_comma(array)
   else
     str_list = array[0..array.length - 2].join(', ')
     str_list << " and #{array[-1]}"
+  end
 end
